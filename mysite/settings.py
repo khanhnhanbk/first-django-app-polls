@@ -83,7 +83,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.mysql",
         "NAME": "defaultdb",
         "USER": "avnadmin",
-        "PASSWORD": "AVNS_6EcWcFylBfP6M0oOgKJ",
+        "PASSWORD": SECRET_KEY,
         "default-character-set": "utf8",
         "HOST": "mysql-django-test-django-test-polls.d.aivencloud.com",
         "PORT": "17882",
