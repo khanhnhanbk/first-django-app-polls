@@ -25,7 +25,10 @@ SECRET_KEY = "django-insecure-a8e1^#h#jksehrj()3emdv(x$sap9i+y%7=vd+al85qut2256s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = [
+    ".vercel.app",
+    "127.0.0.1",
+]
 
 
 # Application definition
@@ -78,12 +81,12 @@ WSGI_APPLICATION = "mysite.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": "DJANGO",
-        "USER": "root",
-        "PASSWORD": "123456",
+        "NAME": "defaultdb",
+        "USER": "avnadmin",
+        "PASSWORD": "AVNS_6EcWcFylBfP6M0oOgKJ",
         "default-character-set": "utf8",
-        "HOST": "localhost",
-        "PORT": "3306",
+        "HOST": "mysql-django-test-django-test-polls.d.aivencloud.com",
+        "PORT": "17882",
     }
 }
 
